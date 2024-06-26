@@ -1,0 +1,99 @@
+import pandas as pd
+from datasets import Dataset
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig, TrainingArguments, Trainer
+from peft import LoraConfig, get_peft_model
+import torch
+
+# Load CSV file into a DataFrame
+csv_file_path = "/content/cleaned_first_100_issues.csv"  # Specify your CSV file path here
+df = pd.read_csv(csv_file_path)
+
+# Filter the DataFrame to include only the desired indexes
+indexes_to_include = [0, 1, 2, 3, 4]
+df_filtered = df.iloc[indexes_to_include]
+
+# Convert the filtered DataFrame into a Hugging Face Dataset
+dataset = Dataset.from_pandas(df_filtered)
+
+# Model and tokenizer names
+base_model_name = "NousResearch/Llama-2-7b-chat-hf"
+refined_model = "llama-2-7b-mlabonne-enhanced"
+
+# Tokenizer
+llama_tokenizer = AutoTokenizer.from_pretrained(base_model_name, trust_remote_code=True)
+llama_tokenizer.pad_token = llama_tokenizer.eos_token
+llama_tokenizer.padding_side = "right"  # Fix for fp16
+
+# Quantization Config
+quant_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=False
+)
+
+# Model
+base_model = AutoModelForCausalLM.from_pretrained(
+    base_model_name,
+    quantization_config=quant_config,
+    device_map={"": 0}
+)
+base_model.config.use_cache = False
+base_model.config.pretraining_tp = 1
+
+# Specify the maximum length for padding and truncation
+max_length = 512
+
+# Tokenize the text data from the DataFrame
+def tokenize_function(examples):
+    texts = examples["body"]
+    return llama_tokenizer(texts, padding="max_length", truncation=True, max_length=max_length)
+
+# Ensure the dataset is processed as a list of examples for the tokenization function
+tokenized_datasets = dataset.map(tokenize_function, batched=True, remove_columns=dataset.column_names)
+
+# LoRA Config
+peft_parameters = LoraConfig(
+    lora_alpha=16,
+    lora_dropout=0.1,
+    r=8,
+    bias="none",
+    task_type="CAUSAL_LM"
+)
+
+# Apply LoRA to the model
+peft_model = get_peft_model(base_model, peft_parameters)
+
+# Training Params
+train_params = TrainingArguments(
+    output_dir="./results_modified",
+    num_train_epochs=1,
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=1,
+    optim="paged_adamw_32bit",
+    save_steps=25,
+    logging_steps=25,
+    learning_rate=2e-4,
+    weight_decay=0.001,
+    fp16=False,
+    bf16=False,
+    max_grad_norm=0.3,
+    max_steps=-1,
+    warmup_ratio=0.03,
+    group_by_length=True,
+    lr_scheduler_type="constant"
+)
+
+# Trainer
+trainer = Trainer(
+    model=peft_model,
+    train_dataset=tokenized_datasets,
+    tokenizer=llama_tokenizer,
+    args=train_params
+)
+
+# Training
+trainer.train()
+
+# Save Model
+trainer.save_model(refined_model)

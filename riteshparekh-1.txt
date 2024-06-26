@@ -1,0 +1,56 @@
+import pandas as pd
+from datasets import Dataset
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+import torch
+
+# Load CSV file into a DataFrame
+csv_file_path = "/content/cleaned_first_100_issues.csv"  # Specify your CSV file path here
+df = pd.read_csv(csv_file_path)
+
+# Filter the DataFrame to include only the desired indexes
+indexes_to_include = [0, 1, 2, 3, 4]
+df_filtered = df.iloc[indexes_to_include]
+
+# Convert the filtered DataFrame into a Hugging Face Dataset
+dataset = Dataset.from_pandas(df_filtered)
+
+# Model and tokenizer names
+base_model_name = "NousResearch/Llama-2-7b-chat-hf"
+refined_model = "llama-2-7b-mlabonne-enhanced"
+
+# Tokenizer
+llama_tokenizer = AutoTokenizer.from_pretrained(base_model_name, trust_remote_code=True)
+llama_tokenizer.pad_token = llama_tokenizer.eos_token
+llama_tokenizer.padding_side = "right"  # Fix for fp16
+
+# Quantization Config
+quant_config = BitsAndBytesConfig(
+    load_in_4bit=True,
+    bnb_4bit_quant_type="nf4",
+    bnb_4bit_compute_dtype=torch.float16,
+    bnb_4bit_use_double_quant=False
+)
+
+# Model
+base_model = AutoModelForCausalLM.from_pretrained(
+    base_model_name,
+    quantization_config=quant_config,
+    device_map={"": 0}
+)
+base_model.config.use_cache = False
+base_model.config.pretraining_tp = 1
+
+# Specify the maximum length for padding and truncation
+max_length = 512
+
+# Tokenize the text data from the DataFrame
+def tokenize_function(examples):
+    # Ensure examples["body"] is a list of strings
+    texts = examples["body"] if isinstance(examples["body"], list) else [examples["body"]]
+    return llama_tokenizer(texts, padding="max_length", truncation=True, max_length=max_length)
+
+# Ensure the dataset is processed as a list of examples for the tokenization function
+tokenized_datasets = dataset.map(tokenize_function, batched=True, remove_columns=dataset.column_names)
+
+# Print a few tokenized examples
+print(tokenized_datasets[:3])
