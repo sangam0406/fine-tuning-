@@ -1,0 +1,482 @@
+title,labels,body,issue_url,repository_url,language
+Added python code example for parking lot ,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","…sign
+
+## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/507,https://api.github.com/repos/donnemartin/system-design-primer,en
+Optimised Images,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/506,https://api.github.com/repos/donnemartin/system-design-primer,en
+de: Add translation,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/504,https://api.github.com/repos/donnemartin/system-design-primer,en
+small changes,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/503,https://api.github.com/repos/donnemartin/system-design-primer,en
+ru: Add Russian translation,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","* Added README-ru.md
+* Kept content of original README.md in comments of README-ru.md for further maintenance.",https://api.github.com/repos/donnemartin/system-design-primer/issues/502,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add version check,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","If pandoc version is less than 2.3, pandoc doesn't support --metadata-file option. Check [here](https://pandoc.org/releases.html). It will raise error when running ./generate-epub.sh. In this PR, I add the pandoc version check before generating epub. ",https://api.github.com/repos/donnemartin/system-design-primer/issues/498,https://api.github.com/repos/donnemartin/system-design-primer,en
+docs: align Constraints for the parking lot exmpl,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Align Constraints for the parking lot example with the code that has Vehicle license plate
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/497,https://api.github.com/repos/donnemartin/system-design-primer,en
+"refactor: start enum val with buffer, count from top","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","It can be beneficial to have buffers between enum values. And start counting from the ""top of the hierarchy"" value, the Director, to the bottom because it is unlikely that a lot of values will be added on top of the Director.",https://api.github.com/repos/donnemartin/system-design-primer/issues/496,https://api.github.com/repos/donnemartin/system-design-primer,en
+Fix #493 : Correct mention of Protobuf in RPC frameworks with mention of gRPC,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",See #493 ,https://api.github.com/repos/donnemartin/system-design-primer/issues/494,https://api.github.com/repos/donnemartin/system-design-primer,en
+New sub-section on architecture patterns,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",Surprised not to have seen a section on application architecture patterns. Found the added material useful when learning.,https://api.github.com/repos/donnemartin/system-design-primer/issues/492,https://api.github.com/repos/donnemartin/system-design-primer,en
+zh-TW: Update term and fix typo in README-zh-TW.md,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","二進制 -> 二進位
+坪寬 -> 頻寬
+
+## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/491,https://api.github.com/repos/donnemartin/system-design-primer,en
+"Fixes constructor for Director, Operator and Supervisor","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Added `call_center` argument for Director, Operator, and Supervisor constructor.
+Changed `level` to `rank` in `self.call` to align with Call class
+When a call is complete, an employee should be free again, hence the `self.call = None` at `complete_call()`
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/487,https://api.github.com/repos/donnemartin/system-design-primer,en
+"Update sensitive terms such as ""blacklist""/ ""whitelist"" to some other terms on the ReadMe files.","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","line 743 - Change ""Blacklist"" to ""Denylist"" or something like that. I think it is not a good idea to use the terms ""blacklist"" and ""whitelist"".
+
+## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/485,https://api.github.com/repos/donnemartin/system-design-primer,en
+Merge pull request #1 from donnemartin/master,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","wanna merge
+
+## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/484,https://api.github.com/repos/donnemartin/system-design-primer,en
+changed user_id size from 32 bytes to 8 bytes,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","I think user_id should be 8 bytes, not 32 bytes, later down on the page for Redis list, it is also defined as 8 bytes.",https://api.github.com/repos/donnemartin/system-design-primer/issues/483,https://api.github.com/repos/donnemartin/system-design-primer,en
+Request: Add GraphQL in the `Communication` section,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Amazing resources, thanks for that!
+
+In the disadvantages for REST section, there are a few references (such as adding more fields to clients that don't need it) that is a great segue to introducing GraphQL.
+
+Would be nice to see GraphQL get a little more attention :)",https://api.github.com/repos/donnemartin/system-design-primer/issues/482,https://api.github.com/repos/donnemartin/system-design-primer,en
+Fix various typos,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",_PS: Thanks for this comprehensive intro guide!_,https://api.github.com/repos/donnemartin/system-design-primer/issues/480,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add cab booking low level design solution,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/479,https://api.github.com/repos/donnemartin/system-design-primer,en
+Request: distributed design problem,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","A problem for addition to the examples: Design a system that tracks the routes of all delivery vehicles in a fleet for later analysis of most optimum route deviation. 
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/477,https://api.github.com/repos/donnemartin/system-design-primer,en
+Ko: Translated into Korean.,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","According to #102, Korean translation began in September 2017, but it was not completed for about three years until September 2020.
+Newly translated and put a pull request. Please merge after the review.",https://api.github.com/repos/donnemartin/system-design-primer/issues/476,https://api.github.com/repos/donnemartin/system-design-primer,en
+HBase link is dead,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","At the wide column store:
+https://github.com/donnemartin/system-design-primer#wide-column-store
+
+This link on the word ""HBase"" is dead as it gets redirected to something else totally irrelevant:
+https://www.mapr.com/blog/in-depth-look-hbase-architecture",https://api.github.com/repos/donnemartin/system-design-primer/issues/475,https://api.github.com/repos/donnemartin/system-design-primer,en
+ja: add README-ja.md for solutions/system_design/twitter,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",ja: add soutions/system_design/scaling_aws README-ja.md,https://api.github.com/repos/donnemartin/system-design-primer/issues/474,https://api.github.com/repos/donnemartin/system-design-primer,sv
+ja: add soutions/system_design/scaling_aws README-ja.md,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",add README-ja.md for soutions/scaling_aws,https://api.github.com/repos/donnemartin/system-design-primer/issues/473,https://api.github.com/repos/donnemartin/system-design-primer,en
+ja: add soutions/system_design/pastebin README-ja.md,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",add `README-ja.md` for **soutions/pastebin**,https://api.github.com/repos/donnemartin/system-design-primer/issues/472,https://api.github.com/repos/donnemartin/system-design-primer,sv
+Uzbek translation,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","I would like to help with Uzbek translation, it would be an awesome guide for Uzbek students 
+@donnemartin ",https://api.github.com/repos/donnemartin/system-design-primer/issues/471,https://api.github.com/repos/donnemartin/system-design-primer,en
+Reduce remove cost from O(n) to O(1),"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",Exchange the item with the last item in the array and then pop it.,https://api.github.com/repos/donnemartin/system-design-primer/issues/469,https://api.github.com/repos/donnemartin/system-design-primer,en
+docs: add links to top with jump2header,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Added links to the table of contents for better navigation.
+
+[Demo](https://github.com/strdr4605/system-design-primer/blob/jump2header/README.md#system-design-topics-start-here)
+
+Generated with:
+
+```
+jump2header --start ""System design topics: start here"" --slug ""index-of-system-design-topics""
+```
+
+If you don't like the PR but interested in links to top see [jump2header](https://github.com/strdr4605/jump2header#readme) for more options.",https://api.github.com/repos/donnemartin/system-design-primer/issues/468,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add Dgraph to graph database list,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/467,https://api.github.com/repos/donnemartin/system-design-primer,en
+Added Resources for Low-Level System Design,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","### Added resources for the low-level design (LLD).
+It includes the following resources:
+- a curated list of the questions
+- Video explanation.
+- Multiple presenters for the same problem.
+- Multiple solutions along with the code repository.
+- Blogs
+fixed: #465 
+
+## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/466,https://api.github.com/repos/donnemartin/system-design-primer,en
+Please Add Resources for Low-Level System Design.,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Hello,  @donnemartin 
+Thanks for the great compilation for the system design resources but one important thing is missing from this as a great collection of resources is Low-Level Design resources.
+taking inspiration from the system design primer I created the low-level design primer which is similar to the system design primer.
+Please add the below resources for the low-level system design as well.
+Resources: https://github.com/prasadgujar/low-level-design-primer
+Thank you :) ",https://api.github.com/repos/donnemartin/system-design-primer/issues/465,https://api.github.com/repos/donnemartin/system-design-primer,en
+Question - Is their a repo as comprehensive as this for Algorithms & Data Structures?,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",I have searched but have not came across something as comprehensive as this.,https://api.github.com/repos/donnemartin/system-design-primer/issues/463,https://api.github.com/repos/donnemartin/system-design-primer,en
+"Add playlist link to ""Further reading"" section","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","This is a free and popular system design playlist on YouTube. 
+Includes topics like load balancing, message queues and mock design interview questions.
+
+## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/461,https://api.github.com/repos/donnemartin/system-design-primer,en
+KV cache for web queries has wrong backend calculations.,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","https://github.com/donnemartin/system-design-primer/tree/master/solutions/system_design/query_cache#design-a-key-value-cache-to-save-the-results-of-the-most-recent-web-server-queries
+
+The section for storage calculations seems incorrect. 
+
+Each Query (50Bytes) would have a list of results with a title (20 Bytes) and a snippet (200 Bytes). The readme says then that each query will have a cache size of 270 Bytes. 
+
+This is only true if each query returns 1 result. In reality most queries would return multiple results (a result defined as a a title and snippet). Therefore it would make sense to limit the number of related documents stored from a query to a set amount (example 200 documents so 270 Bytes * 200 = 54 000 Bytes or 54 KB per query).  Then the size of the cache needs to be recalculated.  ",https://api.github.com/repos/donnemartin/system-design-primer/issues/460,https://api.github.com/repos/donnemartin/system-design-primer,en
+ja: Update some translations,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",Fixed Japanese translation of memcached.,https://api.github.com/repos/donnemartin/system-design-primer/issues/459,https://api.github.com/repos/donnemartin/system-design-primer,en
+is graphql related to graph data structure?,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","In this [solution](https://github.com/donnemartin/system-design-primer/tree/master/solutions/system_design/social_graph#state-assumptions): It says -->`""Exercise the use of more traditional systems - don't use graph-specific solutions such as GraphQL or a graph database like Neo4j""`
+
+My question is how **graphql** is used or utilizes Graph Data Structure?
+
+ ",https://api.github.com/repos/donnemartin/system-design-primer/issues/457,https://api.github.com/repos/donnemartin/system-design-primer,en
+screen 123 needs a redesign,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","screen 123 needs a redesign, more details are here.",https://api.github.com/repos/donnemartin/system-design-primer/issues/455,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add TCP reference on bandwidth-delay product,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",The linked post explains the relationship between latency and bandwidth in TCP.,https://api.github.com/repos/donnemartin/system-design-primer/issues/454,https://api.github.com/repos/donnemartin/system-design-primer,en
+Used the correct property names for a call object,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Used 'rank' instead of 'level' to maintain uniformity with other portions of the code
+
+## Review the Contributing Guidelines
+
+Before submitting a pull request, verify it meets all requirements in the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).
+
+### Translations
+
+See the [Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md).  Verify you've:
+
+* Tagged the [language maintainer](https://github.com/donnemartin/system-design-primer/blob/master/TRANSLATIONS.md)
+* Prefixed the title with a language code
+    * Example: ""ja: Fix ...""
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/453,https://api.github.com/repos/donnemartin/system-design-primer,en
+"RDMS - Sharding, The way of shard table","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","There is a sentence in “https://github.com/donnemartin/system-design-primer#sharding” -- ""Common ways to shard a table of users is either through the ... or the user's geographic location"". I think it would be better to emphasize that the user's data distribution may be uneven when the user's geographic location is used to shard the table. For example, the users are mainly concentrated in a certain area, the data will mainly in a single shard. Sometime this situation will make a big trouble. 
+Therefore, I think it should be emphasized —— Find a better way to shard table and to avoid the situation mentioned above.
+ 
+PS: This project is awesome, I learn so much thing in this.",https://api.github.com/repos/donnemartin/system-design-primer/issues/452,https://api.github.com/repos/donnemartin/system-design-primer,en
+"ja: Update some translations, Fix dead links","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","## Overview
+
+The Japanese version of the README was behind the original one, so we made some updates to it.
+The commit logs show which Pull Requests were followed.",https://api.github.com/repos/donnemartin/system-design-primer/issues/450,https://api.github.com/repos/donnemartin/system-design-primer,en
+System desing prime ,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/449,https://api.github.com/repos/donnemartin/system-design-primer,da
+Feature request: Improve readability by moving the contents into a site,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","First of all, a huge thanks to @donnemartin . This repository is the source of truth to all the resources of the system design and you have shown your great effort to maintain this masterpiece.
+
+I truly follow the resources and I believe it really helps others as well. But reading the resources on one page, sometimes make my work harder. I couldn't navigate properly, I have to scroll up and down to find a section and sometimes I lost to keep track of the content as everything on one page. During this hardship, I am thinking of some ideas where we can improve the readability and introduce smooth navigation.
+
+- [ ] We can split the contents into multiple markdowns instead of one single file.
+- [ ] We can convert the entire content into a doc site which also improves the navigation.
+
+Thinking of that, I made a prototype to get it started. I created a repo to split all the contents and convert them into a static site using [gatsbyjs.](https://www.gatsbyjs.org/)
+
+Here is my repository.
+https://github.com/nutboltu/system-design-primer-site
+
+You can visit the prototype site here. Though it's not yet ready. 
+https://systemdesignprimer.netlify.app/
+
+I am looking forward to hearing from you.",https://api.github.com/repos/donnemartin/system-design-primer/issues/446,https://api.github.com/repos/donnemartin/system-design-primer,en
+Fix the reference URLs of the solution READMEs in the zh-Hans version修改中文答案链接,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Should change links like from 
+solutions/system_design/pastebin/README.md
+to 
+solutions/system_design/pastebin/README-zh-Hans.md",https://api.github.com/repos/donnemartin/system-design-primer/issues/445,https://api.github.com/repos/donnemartin/system-design-primer,en
+"Twitter Use Case(Uploading, Fannout Tweet) [Review]","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","[Use case Diagram](https://i.ibb.co/rsZvt8F/twitter1.png)
+
+[Half Baked Design](https://github.com/amitkumar50/Code-examples/blob/master/System-Design/scalable/twitter/README.md)",https://api.github.com/repos/donnemartin/system-design-primer/issues/443,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add Nubank Engineering Blog,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Nubank is a Latin American bank with Datomic, Clojure and Flutter in its tech stack
+https://medium.com/building-nubank",https://api.github.com/repos/donnemartin/system-design-primer/issues/442,https://api.github.com/repos/donnemartin/system-design-primer,en
+Question: About memcached persistency,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Regarding this line: 
+https://github.com/donnemartin/system-design-primer/blame/master/README.md#L707
+is it correct if memcached is persistence cache? IMO, it’s only true for Redis, not Memecached.",https://api.github.com/repos/donnemartin/system-design-primer/issues/431,https://api.github.com/repos/donnemartin/system-design-primer,en
+zh-Hans: Add translation of missing parts,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",Add translation of missing parts (Availability in numbers),https://api.github.com/repos/donnemartin/system-design-primer/issues/430,https://api.github.com/repos/donnemartin/system-design-primer,en
+improve Design Pastebin.com (or Bit.ly) README-zh-Hans.md,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]","fix some translation mistakes, make some statements more fluent",https://api.github.com/repos/donnemartin/system-design-primer/issues/429,https://api.github.com/repos/donnemartin/system-design-primer,en
+Latency numbers: remove conversion to throughput,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Remove conversion of latency numbers to throughput.
+
+This is misleading for two reasons:
+1. Latency and throughput are not computable from each other. For example: if I know it takes 1 second to turn on the hose, get 1 liter of water, and turn it off, I cannot conclude that the maximum rate I can get water out of the hose is 1 liter per second (though I can conclude it's more than that). 
+2. The throughput estimates seem suspect, in and of themselves. These are great numbers to know, of course, but need to be backed by a separate source. (This'll be extra important if and when this guide includes information about, say, GPUs, which are optimized for throughput).",https://api.github.com/repos/donnemartin/system-design-primer/issues/427,https://api.github.com/repos/donnemartin/system-design-primer,en
+zh-Hans: Update README-zh-Hans.md / typo,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",att,https://api.github.com/repos/donnemartin/system-design-primer/issues/423,https://api.github.com/repos/donnemartin/system-design-primer,sv
+Easy and Beginner friendly video links,"[{""name:"": ""incorporating-feedback"", ""description:"": ""none"", ""color"": ""006b75""}, {""name:"": ""response-needed"", ""description:"": ""none"", ""color"": ""207de5""}]","Respected Open Source Community of this project,
+
+I am continually compiling a list of video sources for people who are following this project to understand more about system design. I am a visual learner, videos help me grasp more to the concepts, I think the video links that I am compiling can be of great help to starters of system design engineers like me for the others.",https://api.github.com/repos/donnemartin/system-design-primer/issues/421,https://api.github.com/repos/donnemartin/system-design-primer,en
+Added an important point on failover,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Honestly, active-passive stateful systems are terrible. Never have found one that worked, there's always too much data incongruency or other random errors. Stateless applications, like routers, are great. But not your Jenkins master.",https://api.github.com/repos/donnemartin/system-design-primer/issues/417,https://api.github.com/repos/donnemartin/system-design-primer,en
+DNS diagram not accurate,"[{""name:"": ""enhancement"", ""description:"": ""none"", ""color"": ""bfe5bf""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","The [diagram](https://camo.githubusercontent.com/fae27d1291ed38dd120595d692eacd2505cd3a9c/687474703a2f2f692e696d6775722e636f6d2f494f794c6a34692e6a7067) in [this section](https://github.com/donnemartin/system-design-primer#domain-name-system) is not accurate.
+Before the request finds its way to the ISP DNS Server, it would check the local DNS cache which is managed by the operating system.  It only goes to the ISP DNS if the local DNS cache doesn't have the answer (or it's expired due to TTL).
+
+In fact, the first DNS server is inside your own machine.",https://api.github.com/repos/donnemartin/system-design-primer/issues/415,https://api.github.com/repos/donnemartin/system-design-primer,en
+Added scale cube,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/413,https://api.github.com/repos/donnemartin/system-design-primer,ro
+Why we need MapReducer to deduplicate if the Web Crawler use Redis Sorted Set,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","In part ""Use case: Service crawls a list of urls"" we store links_to_crawl in a set, which could prevnets duplicate URL. Besides, if we have a similar page, web crawler would reduce the priority of the page link. It would avoid getting into infinite loop.
+
+Given that we use Redis Sorted Set, why do we need MapReducer and how could it filters out the URLs with only 1 frequency now. Is there any more details?",https://api.github.com/repos/donnemartin/system-design-primer/issues/412,https://api.github.com/repos/donnemartin/system-design-primer,en
+"zh-Hans: Correct the wrong translation for ""Error handling is excluded below for simplicity""","[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",As title.,https://api.github.com/repos/donnemartin/system-design-primer/issues/407,https://api.github.com/repos/donnemartin/system-design-primer,en
+REST section improvement,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Changed some references, definitions and disadvantages, and removed a misconception. 
+Changes are:
+- Fix HATEOAS reference and definition
+- Fix REST hierarchy disadvantage
+- Removed verb misconcenption
+- Add workaround to complex single view problem
+- Rewrote resource change problem ",https://api.github.com/repos/donnemartin/system-design-primer/issues/404,https://api.github.com/repos/donnemartin/system-design-primer,en
+Reverse index vs. inverted index,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Hi!
+
+[Design a key-value cache to save the results of the most recent web server queries](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/README.md#design-a-key-value-cache-to-save-the-results-of-the-most-recent-web-server-queries) and [Design a web crawler](https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md) both are described as using a ""Reverse index service"". I believe this should be an _inverted_ index. Reversing the index simply reverses the key, e.g. `123` becomes `321` and speeds up inserts (at the expense of slowing down range queries.) [Wiki](https://en.wikipedia.org/wiki/Reverse_index), [StackOverflow](https://stackoverflow.com/questions/19882785/what-is-the-point-of-reverse-indexing). An [inverted index](https://en.wikipedia.org/wiki/Inverted_index) helps with searching, which I believe is the point of the above two architectures.
+
+I may be entirely wrong - pretty new to all this!",https://api.github.com/repos/donnemartin/system-design-primer/issues/390,https://api.github.com/repos/donnemartin/system-design-primer,en
+id: Add Indonesian translation,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",I have translated the README.md into Indonesian.,https://api.github.com/repos/donnemartin/system-design-primer/issues/360,https://api.github.com/repos/donnemartin/system-design-primer,en
+Indonesian translation,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]","Maintainer(s): @ringanta
+
+Indonesian is my native language
+
+Please check out the [Translations Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md#translations).
+
+Interested in helping? Let us know!
+
+Translation branch: https://github.com/ringanta/system-design-primer/tree/add-indonesian-translation
+Indonesia README file: https://github.com/ringanta/system-design-primer/blob/add-indonesian-translation/README-id.md",https://api.github.com/repos/donnemartin/system-design-primer/issues/359,https://api.github.com/repos/donnemartin/system-design-primer,en
+Fix HTTP definition.,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",HTTP is built on top of TCP only,https://api.github.com/repos/donnemartin/system-design-primer/issues/357,https://api.github.com/repos/donnemartin/system-design-primer,en
+"""lazy symbol binding failed"" when running generate-epub.sh","[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Any suggestions would be appreciated.
+```
+./generate-epub.sh 
+Generating 'en' ...
+dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+./generate-epub.sh: line 3:  4889 Abort trap: 6           pandoc --metadata-file=epub-metadata.yaml --metadata=lang:$2 --from=markdown -o $1 0<&0
+Done! You can find the 'en' book at ./README.epub
+Generating 'ja' ...
+dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+./generate-epub.sh: line 3:  4992 Abort trap: 6           pandoc --metadata-file=epub-metadata.yaml --metadata=lang:$2 --from=markdown -o $1 0<&0
+Done! You can find the 'ja' book at ./README-ja.epub
+Generating 'zh-Hans' ...
+dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+./generate-epub.sh: line 3:  5071 Abort trap: 6           pandoc --metadata-file=epub-metadata.yaml --metadata=lang:$2 --from=markdown -o $1 0<&0
+Done! You can find the 'zh-Hans' book at ./README-zh-Hans.epub
+Generating 'zh-TW' ...
+dyld: lazy symbol binding failed: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+dyld: Symbol not found: ____chkstk_darwin
+  Referenced from: /usr/local/bin/pandoc
+  Expected in: /usr/lib/libSystem.B.dylib
+
+./generate-epub.sh: line 3:  5148 Abort trap: 6           pandoc --metadata-file=epub-metadata.yaml --metadata=lang:$2 --from=markdown -o $1 0<&0
+Done! You can find the 'zh-TW' book at ./README-zh-TW.epub
+```",https://api.github.com/repos/donnemartin/system-design-primer/issues/353,https://api.github.com/repos/donnemartin/system-design-primer,en
+Are the MapReduce code in the System Design Sections still relevant? ,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","With new(er) tech such as Spark, and Hive, I'm not sure how many people would be writing new code using MapReduce. Should we be converting the code examples in the solutions into SQL or DataFrame code? 
+
+
+ (Note: I'm currently a student so take my opinions w/ a grain of salt :) )",https://api.github.com/repos/donnemartin/system-design-primer/issues/349,https://api.github.com/repos/donnemartin/system-design-primer,en
+"Typo in ""Load balancer"" flashcard","[{""name:"": ""bug"", ""description:"": ""none"", ""color"": ""ee0701""}]","""Seesion"" should be ""session"".
+At ""Load balancers can route traffic based on various metrics, including:
+Random
+Least loaded
+Seesion/cookies""",https://api.github.com/repos/donnemartin/system-design-primer/issues/344,https://api.github.com/repos/donnemartin/system-design-primer,en
+"zh-TW: Fix broken link in ""Load balancer"" section","[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/343,https://api.github.com/repos/donnemartin/system-design-primer,en
+"zh-TW: Fix typo in ""Database"" section","[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",* `結點` -> `節點`,https://api.github.com/repos/donnemartin/system-design-primer/issues/342,https://api.github.com/repos/donnemartin/system-design-primer,en
+"zh-TW: Improve translations in ""CDNs"" section","[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]","typo: 
+* `地一個` -> `第一個`
+* `結點` -> `節點`
+
+more fluent:
+* `內容不是經常更新的網站` -> `內容不會經常更新的網站`",https://api.github.com/repos/donnemartin/system-design-primer/issues/341,https://api.github.com/repos/donnemartin/system-design-primer,en
+Web Crawler Service does not use the reverse_index_queue,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Although the class for the service is initiated with the reverse_index_queue, there is no code that shows anything being pushed to the queue when a link is crawled",https://api.github.com/repos/donnemartin/system-design-primer/issues/338,https://api.github.com/repos/donnemartin/system-design-primer,en
+"For the twitter problem, why is the user_id 32 bytes and a tweet_id only 8 bytes?","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","I would assume there would be more tweet_ids than user_ids. Also when showing the schema for redis memcache, user_id is referred to as an 8 byte value.",https://api.github.com/repos/donnemartin/system-design-primer/issues/337,https://api.github.com/repos/donnemartin/system-design-primer,en
+"How is the size of the tweet calculated in ""Twitter timeline and search""","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/twitter/README.md#calculate-usage
+
+There are more tweets than users, why is the tweet_id smaller than user_id?
+Why is the text 140 bytes?
+How is the media stored?
+
+Would be nice to clarify these to explain how we come up with these numbers.
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/334,https://api.github.com/repos/donnemartin/system-design-primer,en
+ja: Correct mistranslations in Communication section,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/331,https://api.github.com/repos/donnemartin/system-design-primer,en
+added queues.io to task queues,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",Added queues.io to task queues section. It has a collection of all task queues across all languages. ,https://api.github.com/repos/donnemartin/system-design-primer/issues/330,https://api.github.com/repos/donnemartin/system-design-primer,fr
+added youtube link for designing scalable web crawler,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/329,https://api.github.com/repos/donnemartin/system-design-primer,en
+vn: Add Vietnamese translation,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]","Add Vietnamese translation.
+Not fully translated (Estimated about ~25% translated) but It is a good started for other Vietnamese contributions.
+
+Related to https://github.com/donnemartin/system-design-primer/pull/241",https://api.github.com/repos/donnemartin/system-design-primer/issues/327,https://api.github.com/repos/donnemartin/system-design-primer,en
+flash cards not support anki night model,"[{""name:"": ""enhancement"", ""description:"": ""none"", ""color"": ""bfe5bf""}]","It's a nice project. I have used Anki to study, and Anki now supports night model. But some card display unnormal in night model.  Please fix this problem, Thx.",https://api.github.com/repos/donnemartin/system-design-primer/issues/326,https://api.github.com/repos/donnemartin/system-design-primer,en
+Update README.md,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/325,https://api.github.com/repos/donnemartin/system-design-primer,ro
+ja: Correct mistranslations in Cache section,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/324,https://api.github.com/repos/donnemartin/system-design-primer,en
+ja: Correct mistranslations in Asynchronism section,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/323,https://api.github.com/repos/donnemartin/system-design-primer,en
+Update AWS SQS specific features and limitations to include FIFO Queu…,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",Update AWS SQS specific features and limitations to include FIFO Queues and their exactly once processing https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues.html,https://api.github.com/repos/donnemartin/system-design-primer/issues/316,https://api.github.com/repos/donnemartin/system-design-primer,en
+ja: Correct mistranslation in Database section,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/312,https://api.github.com/repos/donnemartin/system-design-primer,en
+"Cache might be overwrite by the old version in ""Design KV for web server query""","[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","The original answer is `https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/query_cache/README.md`
+where it says when the cache misses, the Query AP loads the docs and
+```
+Updates the Memory Cache with the contents, placing the entry at the front of the LRU list
+
+```
+
+So consider a concurrent situation:
+1. request A queries and, with cache missed,  it loads the doc
+2. request B updates the same doc
+3. request A puts the doc, which is the old version, to the cache
+
+And other requests will find the old version from cache, as if request B never updates the doc.
+
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/311,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add database clustering,"[{""name:"": ""feature-request"", ""description:"": ""none"", ""color"": ""fbca04""}, {""name:"": ""user-feedback-wanted"", ""description:"": ""none"", ""color"": ""006b75""}]","With mysql8 we can setup an innodb cluster, I feel that can be included in this primer. It can be added in the list of ways we can setup High Availability for databases.",https://api.github.com/repos/donnemartin/system-design-primer/issues/309,https://api.github.com/repos/donnemartin/system-design-primer,en
+Committing deck of cards object oriented design solution,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",Committing deck of cards object oriented design solution,https://api.github.com/repos/donnemartin/system-design-primer/issues/304,https://api.github.com/repos/donnemartin/system-design-primer,en
+Added detail on CAP theorem limitations,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","I thought this blog post from Martin Kleppman (https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html) was super interesting and helps explain what we actually mean by consistency and availability, which is not what the CAP theorem meant in its original form. I've added the link and included a single paragraph that summarises his key point. Hopefully, this is useful for other readers too! ",https://api.github.com/repos/donnemartin/system-design-primer/issues/297,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add Hebrew translation link,"[{""name:"": ""incorporating-feedback"", ""description:"": ""none"", ""color"": ""006b75""}, {""name:"": ""response-needed"", ""description:"": ""none"", ""color"": ""207de5""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/296,https://api.github.com/repos/donnemartin/system-design-primer,sv
+updated API Gateways another pro\benefit,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/294,https://api.github.com/repos/donnemartin/system-design-primer,en
+Design key-value store like Redis but link points to introduction,"[{""name:"": ""enhancement"", ""description:"": ""none"", ""color"": ""bfe5bf""}, {""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}]","Hi
+Thanks for this awesome primer. I love it!
+While surfing through the primer, I found this 
+https://github.com/donnemartin/system-design-primer/blob/master/README.md#additional-system-design-interview-questions
+which has 
+Design a key-value store like Redis, but the slidershare.net link points to a slide deck `Introduction of Redis` and not really the design/architecture. 
+Technically, it should point to information required to create a distributed key-value store.",https://api.github.com/repos/donnemartin/system-design-primer/issues/291,https://api.github.com/repos/donnemartin/system-design-primer,en
+zh-Hans: Correct Chinese CDN translation,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",,https://api.github.com/repos/donnemartin/system-design-primer/issues/290,https://api.github.com/repos/donnemartin/system-design-primer,en
+zh-Hans: Correct Chinese translation with load balancers,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]","The exact words are ""Internal load balancers are not shown to reduce clutter.""",https://api.github.com/repos/donnemartin/system-design-primer/issues/289,https://api.github.com/repos/donnemartin/system-design-primer,en
+Design a parking lot not complete?,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Browsing through the solution to **[Design a parking lot](https://github.com/donnemartin/system-design-primer/blob/master/solutions/object_oriented_design/parking_lot/parking_lot.py)**, it seems the current solution is not addressing the some constraints, and are missing some implementation
+1. bus need to take 5 consecutive spots. 
+   a. `Bus.can_fit_in_spot` not checking number of available spots
+   b. no consecutive spots check available in `ParkingSpot`
+2. `Level.spot_freed` always release 1 spot, not considering bus taking 5 spots. Perhaps this should take a `Vehicle` object as argument and release corresponding spots
+3. `Level._find_available_spot` and `Level._park_starting_at_spot` not implemented.
+4. `ParkingSpot.park_vehicle` and `ParkingSpot.remove_vehicle` not implemented.
+
+I can submit a PR if maintainers think this is a valid enhancement.
+",https://api.github.com/repos/donnemartin/system-design-primer/issues/288,https://api.github.com/repos/donnemartin/system-design-primer,en
+zh-Hans: Translate web crawler solution doc to simplified Chinese,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]",@donnemartin Another translation. 😊,https://api.github.com/repos/donnemartin/system-design-primer/issues/287,https://api.github.com/repos/donnemartin/system-design-primer,en
+Is there a trade-off between performance and scalability?,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","https://github.com/donnemartin/system-design-primer#performance-vs-scalability
+
+Does a system have to sacrifice performance for scalability?
+Even if I read the sources, I still can't get it.
+Why is there a trade-off between them?
+
+Thanks in advance",https://api.github.com/repos/donnemartin/system-design-primer/issues/284,https://api.github.com/repos/donnemartin/system-design-primer,en
+第二步：回顾可扩展性的文章对应的链接打不开,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}, {""name:"": ""response-needed"", ""description:"": ""none"", ""color"": ""207de5""}]",ps：我已翻墙,https://api.github.com/repos/donnemartin/system-design-primer/issues/278,https://api.github.com/repos/donnemartin/system-design-primer,zh-cn
+Pastebin/bitly system design - write to cache missing in diagram,"[{""name:"": ""bug"", ""description:"": ""none"", ""color"": ""ee0701""}]","In the solution for the pastebin/bitly system design, the write to cache flow is missing in the second diagram which refers to the scaling aspect. The cache has only a read arrow but not a write arrow. The diagram will be more intuitive if a write-through/write-back cache mechanism was indicated.",https://api.github.com/repos/donnemartin/system-design-primer/issues/277,https://api.github.com/repos/donnemartin/system-design-primer,en
+Add dns reference,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",Add reference link in DNS section,https://api.github.com/repos/donnemartin/system-design-primer/issues/276,https://api.github.com/repos/donnemartin/system-design-primer,en
+Question about `Redis is useful as a simple message broker but messages can be lost.`,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","I have no question about redis is worse than professional message broker like RabbitMQ.
+
+But I have a doubt about redis will lose messages. I am not sure whether the author used redis as a message broker before. As per my past exp, redis won't lose messages neither restart the server nor fail to implement the messages.
+
+At least, when I was using [sidekiq](https://github.com/mperham/sidekiq) (behind is `redis`), no message lost ever happened by default configuration.
+
+Thanks for your detailed explanation. ",https://api.github.com/repos/donnemartin/system-design-primer/issues/274,https://api.github.com/repos/donnemartin/system-design-primer,en
+Hebrew translation,"[{""name:"": ""help wanted"", ""description:"": ""none"", ""color"": ""128a0c""}, {""name:"": ""translation"", ""description:"": ""none"", ""color"": ""f9d0c4""}]","Maintainer(s): @EladLeev
+
+Please check out the [Translations Contributing Guidelines](https://github.com/donnemartin/system-design-primer/blob/master/CONTRIBUTING.md#translations).
+
+Original translations thread: #28
+
+Interested in helping? Let us know!
+
+---
+
+Hey guys,
+I found myself sending it over and over to people, so I decided to create Hebrew translation as well 😄 
+
+WIP here:
+https://github.com/EladLeev/system-design-primer/tree/he-translate",https://api.github.com/repos/donnemartin/system-design-primer/issues/272,https://api.github.com/repos/donnemartin/system-design-primer,en
+Should we have a chat to help and connect members ?,"[{""name:"": ""user-feedback-wanted"", ""description:"": ""none"", ""color"": ""006b75""}]",@donnemartin i was thinking of opening a slack channel for the members and contributors to help other peers online in advising and helping out when necessary.,https://api.github.com/repos/donnemartin/system-design-primer/issues/271,https://api.github.com/repos/donnemartin/system-design-primer,en
+Emphasised system questions around managed DNS,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]",Added more verbosity on how questions on questions around managed DNS can arrive during interviews.,https://api.github.com/repos/donnemartin/system-design-primer/issues/270,https://api.github.com/repos/donnemartin/system-design-primer,en
+Examples of how to create a design diagram,"[{""name:"": ""needs-review"", ""description:"": ""none"", ""color"": ""5319e7""}]","Are there any references on how to create a good design diagram? What do the different colors mean? What do the dashed lines mean?
+
+Sorry if this is a basic question but I don't even know where to start searching for more information. This is the first page I saw that had the diagrams in the format that I've seen before.",https://api.github.com/repos/donnemartin/system-design-primer/issues/267,https://api.github.com/repos/donnemartin/system-design-primer,en
